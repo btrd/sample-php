@@ -6,7 +6,8 @@
   },
   "extra": {
     "paas": {
-      "nginx-includes": ["config/nginx-https-redirection.conf"]
+      "nginx-includes": ["config/nginx-https-redirection.conf"],
+      "compile": ["exit 1"]
     }
   }
 }
